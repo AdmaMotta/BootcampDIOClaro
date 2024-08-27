@@ -6,11 +6,8 @@ public class BancoTerminal {
         double saldo = 15;
         double valorSolicitado = 22;
 
-        if (saldo > valorSolicitado) {
-            saldo = saldo - valorSolicitado;
-        } else {
-            System.out.println("Saldo insuficente");
-        }
+        if (saldo > valorSolicitado) { saldo = saldo - valorSolicitado; }
+        else { System.out.println("Saldo insuficente");}
 
         System.out.println(saldo);
 
