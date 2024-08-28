@@ -25,7 +25,6 @@ public class VerificacaoServicos {
         }
         String resultado = contratado ? "Sim" : "Não" ;
         System.out.println(resultado);
-
         scanner.close();
     }
 }

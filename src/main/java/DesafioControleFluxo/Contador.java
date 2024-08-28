@@ -27,7 +27,6 @@ public class Contador {
         if (parametroUm > parametroDois) {
             throw new ParametrosInvalidosException();
         }
-
         //realizar o for para imprimir os números com base na variável contagem
         int contagem = parametroDois - parametroUm;
         int numero = 1;

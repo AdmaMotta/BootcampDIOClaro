@@ -27,7 +27,7 @@ public class Main {
 
 
         // TODO: Verifique se todos os serviços foram contratados
-        if ( (movelContratado && bandaLargaContratada && tvContratada) == true) {
+        if ((movelContratado && bandaLargaContratada && tvContratada) == true) {
             return "Combo Completo";
         } else {
             return "Combo Incompleto";
