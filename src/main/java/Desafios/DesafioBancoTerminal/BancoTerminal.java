@@ -1,4 +1,4 @@
-package DesafioBancoTerminal;
+package Desafios.DesafioBancoTerminal;
 
 public class BancoTerminal {
     public static void main(String[] args) {

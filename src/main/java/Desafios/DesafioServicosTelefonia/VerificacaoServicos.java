@@ -1,4 +1,4 @@
-package DesafioServicosTelefonia;
+package Desafios.DesafioServicosTelefonia;
 
 import java.util.Scanner;
 

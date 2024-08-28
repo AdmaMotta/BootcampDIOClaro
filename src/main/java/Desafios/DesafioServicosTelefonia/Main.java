@@ -1,8 +1,5 @@
-package DesafioServicosTelefonia;
+package Desafios.DesafioServicosTelefonia;
 
-import java.lang.reflect.Array;
-
-import java.util.List;
 import java.util.Scanner;
 
 public class Main {
