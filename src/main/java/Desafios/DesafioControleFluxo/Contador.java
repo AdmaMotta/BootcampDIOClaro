@@ -12,7 +12,7 @@ public class Contador {
         int parametroDois = terminal.nextInt();
 
         try {
-            //chamando o metodo contendo a lógica de contagem
+            
             contar(parametroUm, parametroDois);
 
         }catch (ParametrosInvalidosException e) {
@@ -23,11 +23,11 @@ public class Contador {
 
     static void contar(int parametroUm, int parametroDois) throws ParametrosInvalidosException {
 
-        //validar se parametroUm é MAIOR que parametroDois e lançar a exceção
+
         if (parametroUm > parametroDois) {
             throw new ParametrosInvalidosException();
         }
-        //realizar o for para imprimir os números com base na variável contagem
+
         int contagem = parametroDois - parametroUm;
         int numero = 1;
         for (int i = parametroUm; i < parametroDois; i++){
