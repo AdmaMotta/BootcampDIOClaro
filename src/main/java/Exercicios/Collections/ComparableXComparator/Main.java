@@ -7,7 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        ArrayList<Livro> livros = new ArrayList<Livro>() {
+        ArrayList<Livro> livros = new ArrayList<>() {
             {
                 add(new Livro("Java", "Peter Jandl Jr.", 2021));
                 add(new Livro("Desenvolvimento Real de Software", "Raoul-Gabriel Urma e  Richard Warburton", 2021));

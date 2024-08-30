@@ -1,6 +1,5 @@
 package Exercicios.Collections.ComparableXComparator;
 
-import javax.swing.*;
 import java.util.Comparator;
 
 class Livro implements Comparable<Livro> {
@@ -10,34 +9,23 @@ class Livro implements Comparable<Livro> {
     private Integer ano;
 
     // CONSTRUCTORS
-    public Livro() {
-    }
     public Livro (String titulo, String autor, Integer ano){
         this.titulo = titulo;
         this.autor = autor;
         this.ano = ano;
     }
 
-    // GETTERS AND SETTERS
+    // GETTERS
     public String getTitulo() {
         return titulo;
-    }
-    public void setTitulo(String titulo) {
-        this.titulo = titulo;
     }
 
     public String getAutor() {
         return autor;
     }
-    public void setAutor(String autor) {
-        this.autor = autor;
-    }
 
     public Integer getAno() {
         return ano;
-    }
-    public void setAno(Integer ano) {
-        this.ano = ano;
     }
 
     // Usando Comparable para ordenar livros por ano (Dentro da classe principal)
