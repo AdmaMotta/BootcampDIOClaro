@@ -1,6 +1,6 @@
 package Desafios.DesafioBancoDigital;
 
-public abstract class Conta implements InterfaceBanco {
+public class Conta implements InterfaceBanco {
 
     private static final int AGENCIA_PADRAO = 1;
     private static int SEQUENCIAL = 1;
@@ -14,7 +14,6 @@ public abstract class Conta implements InterfaceBanco {
     public Conta(Cliente cliente) {
         this.agencia = Conta.AGENCIA_PADRAO;
         this.numero = Conta.SEQUENCIAL++;
-        this.saldo = saldo;
         this.cliente = cliente;
     }
 
@@ -48,6 +47,19 @@ public abstract class Conta implements InterfaceBanco {
 
     public void depositar(double valor) {
         saldo += valor;
+    }
+
+    @Override
+    public String tipoConta() {
+        return "";
+    }
+
+    public void transferir (double valor, Conta contaDestino) {
+        if (tipoConta().equals("Conta Corrente")) {
+            transferir(valor, contaDestino);
+        } else {
+            System.out.println("Ação inoperante devido ao tipo de conta (Poupança)." + "\n");
+        }
     }
 
     protected void imprimirExtrato() {

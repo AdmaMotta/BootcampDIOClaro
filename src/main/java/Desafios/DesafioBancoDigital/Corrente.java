@@ -10,6 +10,7 @@ public class Corrente extends Conta{
     public void transferir(double valor, Conta contaDestino) {
         sacar(valor);
         contaDestino.depositar(valor);
+        System.out.println("Transferência realizada com sucesso.");
     }
 
     @Override

@@ -16,6 +16,12 @@ public class Main {
         corrente.imprimirExtrato();
         poupanca.imprimirExtrato();
 
+        corrente.depositar(50);
+        corrente.transferir(55, poupanca);
+        poupanca.transferir(20, corrente);
+
+        corrente.imprimirExtrato();
+        poupanca.imprimirExtrato();
 
 
     }
