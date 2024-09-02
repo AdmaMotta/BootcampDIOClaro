@@ -8,7 +8,7 @@ public class FunctionExemplo {
 
     /*
     Representa uma função que aceita um argumento do tipo T e retorna um resultado do tipo R.
-    É utilizada para transformar ou mapear os elementos do Stram em outros valores ou tipos.
+    É utilizada para transformar ou mapear os elementos do StrEam em outros valores ou tipos.
      */
 
     public static void main(String[] args) {
