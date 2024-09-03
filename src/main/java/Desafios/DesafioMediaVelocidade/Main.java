@@ -2,7 +2,7 @@ package Desafios.DesafioMediaVelocidade;
 
 import java.util.Scanner;
 
-public class Main {
+public class Main1 {
 
     // Função para calcular a velocidade média de conexão de internet
     public static double calcularVelocidadeMedia(String [] velocidades) {
